@@ -11,7 +11,6 @@ import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DatabaseReference;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     // firebase
     private FirebaseAuth mFirebaseAuth;
     private FirebaseUser mFirebaseUser;
-    private DatabaseReference mFirebaseDatabase;
 
     private String mUserEmail;
 
@@ -119,5 +117,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
 }
